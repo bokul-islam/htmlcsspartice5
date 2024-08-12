@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 90%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.content{
+    margin: 30px;
+}
+.form{
+    display: flex;
+}
+.name{
+    width: 50%;
+    
+}
+input[type=text]{
+    padding: 12px 0px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgb(105, 105, 105);
+}
+input[type=text]:hover{
+   border-color: hsl(169, 82%, 27%);
+   
+}
+input[type=text]:focus{
+    background-color: hsla(143, 96%, 45%, 0.438);
+}
+.first{
+    display: block;
+    padding-bottom: 10px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+.email{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.query{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.icon{
+    background-image: url('assets/images/circle.svg');
+    background-repeat: no-repeat;  
+    background-position: 20px ;
+}
+.icon:focus{
+    background-image: url('assets/images/color.svg');
+    background-repeat: no-repeat;  
+    background-position: 20px ;
+}
+   
+
+.message{
+    display: block;
+    margin-top: 20px;
+}
+textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    resize: none;
+
+}
+input[type=checkbox]{
+    margin-top: 20px;
+}
+.check{
+    padding: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    padding: 15px;
+    color: azure;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media  screen and (max-width:400px) {
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: hsl(148, 38%, 91%);
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        height:700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 90%;
+        height: 90%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+    }
+    .content{
+        margin: 30px;
+    }
+    .form{
+        display: flex;
+    }
+    .name{
+        width: 50%;
+        
+    }
+    input[type=text]{
+        padding: 12px 0px;
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid rgb(105, 105, 105);
+    }
+    input[type=text]:hover{
+       border-color: hsl(169, 82%, 27%);
+       
+    }
+    input[type=text]:focus{
+        background-color: hsla(143, 96%, 45%, 0.438);
+    }
+    .first{
+        display: block;
+        padding-bottom: 10px;
+    }
+    input[type=email]{
+        width: 100%;
+        padding: 12px 0px;
+        border-radius: 10px;
+        border: 1px solid rgb(105, 105, 105);
+    }
+    
+    .email{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .query{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        background-image: url('assets/images/circle.svg');
+        background-repeat: no-repeat;  
+        background-position: 10px ;
+    }
+    .icon:focus{
+        background-image: url('assets/images/color.svg');
+        background-repeat: no-repeat;  
+        background-position: 10px ;
+    }
+    .message{
+        display: block;
+        margin-top: 20px;
+    }
+    textarea{
+        margin-top: 10px;
+        border-radius: 10px;
+        resize: none;
+    
+    }
+    input[type=checkbox]{
+        margin-top: 20px;
+    }
+    .check{
+        padding: 10px;
+    }
+    input[type=submit]{
+        width: 100%;
+        background-color: hsl(169, 82%, 27%);
+        border: none;
+        padding: 15px;
+        color: azure;
+        font-weight: bolder;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
